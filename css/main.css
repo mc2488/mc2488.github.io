@@ -102,6 +102,7 @@ nav ul li {
 
 .bigheaderbackground {
     background-image: url("../images/backgrounds/bigheaderbackground.png");
+    width: 100%;
 }
 
 .header-content {
@@ -148,11 +149,15 @@ nav ul li {
     width: 40%;
 }
 
+.nav-background {
+    background-image: url("../images/backgrounds/navbackground.png");
+    width: 100%;
+}
+
 nav {
     padding: 24px 64px;
     justify-content: space-between;
     align-items: center;
-    background-image: url("../images/backgrounds/navbackground.png");
 }
 
 nav ul {
