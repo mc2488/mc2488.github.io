@@ -7,7 +7,8 @@ html { font-family: 'Inter', sans-serif; }
 } */
 
 body {
-    font-family: 'Inter', 'Helvetica Neue', 'Sans-Serif';
+    font-family: 'Inter', 'Helvetica Neue', sans-serif;
+    background-color: white;
     color: #353535;
     margin: 0px;
     /* margin-left: 128px;
@@ -15,14 +16,7 @@ body {
     margin-top: 24px; */
 }
 
-#logo {
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    margin: 0px;
-    color: #353535;
-}
+/* Font Styles */
 
 h1 {
     font-weight: bold;
@@ -61,14 +55,53 @@ h4 {
 
 p {
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 28px;
     margin: 0px;
+    color: #353535;
+}
+
+#logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px;
+    color: #353535;
+}
+
+nav ul li {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2px;
+    color: #353535;
+}
+
+.link {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0px;
+    color: #353535;
+}
+
+
+.title-and-description {
+    margin-top: 32px;
+    width: 35%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
 }
 
 .bigheaderbackground {
-    background-image: url("../images/bigheaderbackground.png");
+    background-image: url("../images/backgrounds/bigheaderbackground.png");
 }
 
 .header-content {
@@ -78,6 +111,8 @@ p {
 }
 
 
+/* Dividers */
+
 .light-divider {
     border-bottom: 1px solid #353535;
 }
@@ -86,12 +121,22 @@ p {
     border-bottom: 4px solid #353535;
 }
 
+/* Photos */
+
+.cover-photo {
+    width: 49%;
+/* max-height:100%; */
+}
+
 .main {
     margin-top: 80px;
 }
 
-.right-page-block {
-    margin: 0px 128px;
+.page-block {
+    margin-top: 80px;
+    padding: 0px 128px;
+    justify-content: space-between;
+    margin-bottom: 88px;
 }
 
 .companies {
@@ -105,31 +150,20 @@ p {
 
 nav {
     padding: 24px 64px;
-    display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    background-image: url("../images/navbackground.png");
+    align-items: center;
+    background-image: url("../images/backgrounds/navbackground.png");
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
     padding: 0px;
     margin: 0px;
 }
 
-nav ul li {
+.nav-links {
     padding-left: 64px;
     margin: 0px;
     display: inline;
-
-    font-family: Inter;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    letter-spacing: 2px;
-    color: #353535;
 }
 
 a {
@@ -139,4 +173,13 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+footer {
+    padding: 0px 128px;
+    margin:0px;
+}
+
+.social-links {
+    margin: 24px 0px;
 }

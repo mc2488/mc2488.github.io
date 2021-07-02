@@ -9,13 +9,13 @@
 
 	<body>
         <div class="header">
-		<nav>
+		<nav class="flex-row">
             <p id="logo">megan chang</p>
 
-    		<ul>
-        		<li><a href="/">WORK</a></li>
-	        	<li><a href="/resume">RESUME</a></li>
-        		<li><a href="/about">ABOUT</a></li>
+    		<ul class="flex-row">
+        		<li class="nav-links"><a href="index.html">WORK</a></li>
+	        	<li class="nav-links"><a href="pdfs/meganchangresume.pdf" target="_blank">RESUME</a></li>
+        		<li class="nav-links"><a href="/about">ABOUT</a></li>
     		</ul>
 		</nav>
 
@@ -26,8 +26,8 @@
         		<h1 id="intro">Hi! I’m Megan, & I’m currently designing</h1>
 
                 <div class="companies">
-                    <h2>@ <a href="https://www.office.com">Microsoft ↗</a></h2>
-                    <h2 style="margin-top: 16px;">@ <a href="https://www.cornell.edu">Cornell ↗</a></h2>
+                    <h2>@ <a href="https://www.office.com" target="_blank">Microsoft ↗</a></h2>
+                    <h2 style="margin-top: 16px;">@ <a href="https://www.cornell.edu" target="_blank">Cornell ↗</a></h2>
                 </div><!-- end companies -->
 
                 <h3 style="margin-top: 144px;">Scroll to see more ↓</h3>
@@ -40,14 +40,33 @@
 
         <div class="main">
 
-            <div class="right-page-block">
+            <div class="flex-row page-block">
 
-                <div style="display:flex; flex-direction: row;">
-                    <h4>Bloom University</h4>
-                    <h4 style="padding-left: 8px;">→</h4>
+                <div class="title-and-description">
+                    <div class="flex-row">
+                        <h4>Bloom University</h4>
+                        <h4 style="padding-left: 8px;">→</h4>
+                    </div>
+
+                    <p style="margin-top: 16px;">Designed the initial launch for platform to generate 1:1 meet-ups between students.</p>
                 </div>
 
-                <p style="margin-top: 16px; width: 360px;">Designed the initial launch for platform to generate 1:1 meet-ups between students.</p>
+                <img class="cover-photo" src="images/bloom-cover.png" alt="Bloom University Cover Photo">
+
+            </div>
+
+            <div class="flex-row page-block">
+
+                <img class="cover-photo" src="images/carriage-cover.png" alt="Bloom University Cover Photo">
+
+                <div class="title-and-description">
+                    <div class="flex-row">
+                        <h4 style="padding-right: 8px;">←</h4>
+                        <h4>Carriage</h4>
+                    </div>
+
+                    <p style="margin-top: 16px;">Designing driver mobile application for para-transit platform.</p>
+                </div>
 
             </div>
 
@@ -55,7 +74,21 @@
 
     </div>
 
+
+        <div class="light-divider"></div>
+
 		<footer>
+
+            <div class="flex-row" style="justify-content: space-between; align-items: center;">
+
+                <p>Made with ♡ by Megan</p>
+
+                <ul class="flex-row social-links">
+                    <li class="nav-links"><a href="https://instagram.com" target="_blank" class="link">Instagram</a></li>
+                    <li class="nav-links"><a href="https://vsco.co/meg-chang" target="_blank" class="link">VSCO</a></li>
+                    <li class="nav-links"><a href="https://linkedin.com" target="_blank" class="link">LinkedIn</a></li>
+                </ul>
+            </div>
 
 		</footer>
 
