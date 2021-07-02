@@ -25,6 +25,11 @@ h1 {
     color: #353535;
     padding:0px;
     margin:0px;
+
+
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
 }
 
 h2 {
@@ -35,6 +40,10 @@ h2 {
     line-height: 53px;
     padding:0px;
     margin: 0px;
+
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
 }
 
 h3 {
@@ -43,6 +52,17 @@ h3 {
     font-size: 24px;
     line-height: 29px;
     margin: 0px;
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -100px;
+    }
+
+    100% {
+        margin-left: 0px;
+    }
+
 }
 
 h4 {
@@ -176,9 +196,9 @@ a {
     color: #353535;
 }
 
-a:hover {
+/* a:hover {
     text-decoration: underline;
-}
+} */
 
 footer {
     padding: 0px 128px;
@@ -187,4 +207,28 @@ footer {
 
 .social-links {
     margin: 24px 0px;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #353535;
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #353535;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
