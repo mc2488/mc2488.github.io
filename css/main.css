@@ -102,8 +102,7 @@ nav ul li {
 
 .bigheaderbackground {
     background-image: url("../images/backgrounds/bigheaderbackground.png");
-    max-width: 100%;
-    height: auto;
+    background-size: cover;
 }
 
 .header-content {
@@ -152,8 +151,7 @@ nav ul li {
 
 .nav-background {
     background-image: url("../images/backgrounds/navbackground.png");
-    max-width: 100%;
-    height: auto;
+    background-size: cover;
 }
 
 nav {
