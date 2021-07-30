@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Megan Chang</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+	</head>
+
+	<body>
+
+    <div class = "nav-background">
+		<nav class="flex-row">
+            <p id="logo"><a href="index.html">megan chang</a></p>
+
+    		<ul class="flex-row">
+        		<li class="nav-links"><a href="index.html" class="hover-underline-animation">WORK</a></li>
+	        	<li class="nav-links"><a href="pdfs/meganchangresume.pdf" target="_blank" class="hover-underline-animation">RESUME</a></li>
+        		<li class="nav-links"><a href="about.html" class="hover-underline-animation">ABOUT</a></li>
+    		</ul>
+		</nav>
+    </div>
+
+        <div class="light-divider"></div>
+
+        <div class="medium-background">
+
+            <div class="medium-header-content">
+                <p class="page-title" style="margin-bottom: 16px;">BLOOM UNIVERSITY</p>
+                <p class="body" style="margin-bottom: 16px;">Product Design Internship</p>
+                <div style="margin-bottom: 8px;"> <span class="body-emphasized">Timeline: </span><span class="body">June 2020 - August 2020</span> </div>
+                <div style="margin-bottom: 8px;"> <span class="body-emphasized">My Role: </span><span class="body">Product Designer</span> </div>
+                <div style="margin-bottom: 8px;"> <span class="body-emphasized">Design Tools: </span><span class="body">Figma, Origami Studio</span> </div>
+                <div> <span class="body-emphasized">Team: </span><span class="body">Megan Chang, Yuxuan Chen, Jalil Evans (Head of Product)</span> </div>
+            </div>
+
+            <div class="light-divider"></div>
+
+        </div>
+
+        <div class="main">
+
+            <!-- VERTICAL TEXT BLOCK -->
+            <div class="vertical-text-block">
+                <h3 style="margin-bottom: 24px;">Context.</h3>
+                <p class="body">Bloom is a web platform that focuses on building more tight-knit communities. The key to these tight-knit communities is the power of human connection, and Bloom helps create these connections by (1) matching individuals based on commonalities and (2) scheduling virtual meet-ups between these matches.<br><br>
+                    Currently, Bloom is focused on collegiate organizations and clubs. For the initial product launch, the primary target audience was members of ColorStack, a technology-based student organization on campuses such as Cornell University, NYU, and Carnegie Mellon. ColorStack provides support for Black and Latinx students that attend these colleges.<br><br>
+                    My job as a product design intern with Bloom was to firstly design web and mobile versions of the platform for the initial product launch in which 1:1 meetups would be generated bet
+                    Bloom is a web platform that focuses on building more tight-knit communities. The key to these tight-knit communities is the power of human connection, and Bloom helps create these connections by (1) matching individuals based on commonalities and (2) scheduling virtual meet-ups between these matches.</p>
+            </div>
+
+            <!-- IMAGE -->
+            <img src="images/bloom/bloomMainPhoto.png" alt="Bloom University Cover Photo">
+
+            <!-- HORIZONTAL TEXT BLOCK -->
+            <div class="horizontal-text-block">
+                <h3 class="section-title">The Problem.</h3>
+                <p class="body" style="width: 100%">Building genuine relationships is hard—and it has become even harder in the world of virtual connections that has been built in the wake of coronavirus. Bloom aims to ease the process of building genuine community by tackling the main pain points discovered from previous user research. Some of these pain points include:<br><br>
+                    <span class="body-emphasized">Students want to meet other people in their organization, but the current only easy way is through Donut.</span><br>
+                    Donut is a Slack integration that randomly matches people in a Slack channel, but these matches are often surface-level and may not lead to genuine connections.<br><br>
+
+                    <span class="body-emphasized">Students find it hard to schedule times to meet up or to meet up spontaneously.</span><br>
+                    Students are busy, and sometimes meeting up with new people requires too much additional scheduling effort, so it is put on the back burner.<br><br>
+
+                    <span class="body-emphasized">Students want to meet a lot of people, but it can be hard to find the people they truly want to meet.</span><br>
+                    In other words, when it comes to making new friends, students want both quantity and quality. Unfortunately, it can be difficult and daunting for students to find for themselves friends that exist in this sweet spot.<br><br>
+
+                    Additionally, Bloom is marketed toward organization leaders as a tool to do the heavy-lifting for them when it comes to building community within their organizations.<br><br>
+
+                    We were able to consolidate the needs of both college students and organization leaders into the following single people problem:<br>
+
+                    <span style="font-style: italic;" class="body-emphasized">Organization leaders currently are inefficient in building community between their members. College students want to make friends, but it can be difficult to build and maintain lasting bonds.</span></p>
+            </div>
+
+            <!-- HORIZONTAL TEXT BLOCK -->
+            <div class="horizontal-text-block">
+                <h3 class="section-title">The Solution.</h3>
+                <p class="body" style="width: 100%">To facilitate these 1:1 meetups, our solution was to design a web and mobile platform that would allow users to:<br><br>
+                    <span class="body-emphasized">(1) Submit a form with their personal information and characteristics to be used in a matching algorithm</span><br>
+                    Our amazing dev team came up with the matching algorithm, and made adjustments as time went on to create more optimal matches. We also decided to use a Typeform for this portion of the platform due to constraints.<br><br>
+
+                    <span class="body-emphasized">(2) Input their availabilities for a given week in order to facilitate scheduling meet-ups.</span><br>
+                    When a user first signs up for the platform, they enter in their general availabilities, which carry over week to week. Users have the option to edit their availabilities for a week at any time.<br><br>
+
+                    <span class="body-emphasized">(3) View their match for a given week.</span><br>
+                    Each week, users receive an email with information about their match and a link to a video chat room where they will meet their match at the scheduled time.<br><br>
+
+                    This solution provides students with quality meet-ups while minimizing the work done on their end. Bloom does the heavy lifting so that students can focus on building genuine connections with their matches.</p>
+            </div>
+
+            <!-- IMAGE -->
+            <img src="images/bloom/bloomUserFlow1.png" alt="Bloom University Cover Photo">
+
+            <!-- SECTION HEADER -->
+            <!-- <h2 class="section-header">Design.</h2> -->
+
+            <!-- VERTICAL TEXT BLOCK -->
+            <div class="vertical-text-block">
+                <h3 style="margin-bottom: 24px;">Part I: Home and Scheduling Pages.</h3>
+                <p class="body">The core feature that I was in charge of tackling was the home screen (my co-intern spearheaded the scheduling screen!). The home screen is essential to the platform as it is the first page that greets returning users and allows users to manage their matches and availabilities.<br><br>
+                    Throughout the process of designing the home page, I kept the following design consideration at the front of my mind:<br><br>
+                    How can I clearly visually distinguish between information about the user's current match (for this week) and their pending match (for the following week)? How can text also be used to help make this distinction?<br><br>
+                    Other things I considered included: How can I make it easy and intuitive for users to edit their availabilities? How can I encourage users to continuously engage with the platform and receive matches week after week?<br><br>
+                    I created a few sketches as a first attempt to address these design considerations.</p>
+
+                <h4 style="margin-top: 24px; margin-bottom: 24px;">Medium Fidelities.</h4>
+                <p class="body">Next, I took some of the most practical sketches and created various wireframe explorations in Figma.</p>
+                <img src="images/bloom/bloomHomePageMidFis.png" alt="Bloom University Home Page Mid Fidelity Explorations">
+
+                <p class="body">After a critique session, I received feedback on my wireframes and decided to pursue explorations A and B. They most closely resembled a traditional social platform feed, and also distinguished between the current and upcoming weeks. Additionally, in these explorations, users were able to edit their availabilities on the same home page, further establishing the home page as a centralized hub for the user.<br><br>
+
+                    Up to this point, I had framed my design work within an opt-out model for matches in which users would automatically be signed up to receive matches for a given week, and then would have to opt-out of receiving matches manually. However, insights from user testing and research led us to pivot toward an opt-in system. This new opt-in system would ensure that:<br><br></p>
+
+                    <ul>
+                        <li class="body">✦ Users returned to the platform and repeatedly engaged with the interface week after week when they opt-in receive a match.
+                        <li class="body">✦ Users who manually opt-in to matches would be more committed to following through with meet-ups with their match that week.
+                    </ul>
+
+            <!-- IMAGE -->
+            <img src="images/bloom/bloomUserFlow2.png" alt="Bloom University User Flow 2">
+
+            <h4 style="margin-top: 24px; margin-bottom: 24px;">High Fidelities.</h4>
+            <p class="body">As I moved into higher fidelity explorations, I explored ways to use font choices, spacing, and color to further distinguish between weeks of matches.</p>
+            <img src="images/bloom/bloomHomePageHighFis.png" alt="Bloom University Home Page High Fidelity Explorations">
+
+            <p class="body">We decided to pursue exploration B due to the clean card design, resembling one's feed on Facebook or Instagram. Additionally, there is visual consistency between the cards for each week to maintain cohesiveness on the page, but also enough distinction to clearly separate one week from another.<br><br>
+                Additionally, in order to accommodate for the new opt-in system, my co-intern and I designed a pop up that would appear the first time a user logged in for a given week to prompt them to opt-in for matches that week. I decided on the pop up interface because it would immediately capture users' attention when they logged in and would require action (a decision) from the user to be dismissed.</p>
+
+            <img src="images/bloom/bloomPopupHighFi.png" alt="Bloom University Popup High Fidelity Explorations">
+
+            <p class="body"> We decided to pursue exploration A because it had the simplest interaction and was visually clean. After feedback from Jalil, head of product, we changed the copy to more clearly communicate the time frame of matches and made the button text less wordy and more engaging.</p>
+
+            <h4 style="margin-top: 24px; margin-bottom: 24px;">Final Screens.</h4>
+            <p class="body">These screens also include the scheduling availabilities component designed by my co-intern.</p>
+
+            <img src="images/bloom/bloomFinalHomePage.png" alt="Bloom University Final Home Page Design">
+        </div>
+
+        <!-- VERTICAL TEXT BLOCK -->
+        <div class="vertical-text-block">
+            <h3 style="margin-bottom: 24px;">Part II: Profile Page.</h3>
+            <p class="body">Next, I was tasked with spearheading the design of profile pages within Bloom. As a social platform, a profile page is important for users of Bloom to be able to visualize both themselves and their connections within the platform.<br><br>
+                After some brainstorming as a team, we were able to come up with basic content requirements and entry points. When designing the profile page, I kept the following in mind: How can I emphasize a user's network of connections on the profile page? How would a large network be displayed? A small network?</p>
+
+            <h4 style="margin-top: 24px; margin-bottom: 24px;">Expanded User Flow.</h4>
+            <p class="body">I also fleshed out a basic user flow to aid me in the process of designing the profile pages, and imagining its place within the larger platform. </p>
+
+            <img src="images/bloom/bloomUserFlow3.png" alt="Bloom University third user flow">
+
+            <h4 style="margin-top: 24px; margin-bottom: 24px;">Market Research.</h4>
+            <p class="body">Before starting any design work, I decided to conduct some market research to get a better understanding of the design principles and interactions commonly in place in profile pages.</p>
+
+            <img src="images/bloom/bloomProfileResearch.png" alt="Bloom University market research">
+
+            <p class="body">From my market research, I came up with the following takeaways:</p><br>
+
+            <ul>
+                <li class="body"><div class="body-emphasized">✦ Personal information about the user should be given highest priority on a profile page.</div>
+                    Although this takeaway is somewhat given, to translate this takeaway into design terms, I noticed that nearly all of the profile pages I looked at placed the user's image and name on the top half of the page, or on the left to prioritize these elements and take advantage of natural scanning patterns.</li>
+
+                <li class="body"><div class="body-emphasized">✦ Profile pages made use of cards to display secondary information about the user.</div>
+                    To communicate interactivity and editability, I noticed that most profile pages made use of cards to organize secondary information about the user (ie activity feed, likes, etc.).</li>
+
+                <li class="body"><div class="body-emphasized">✦ Intensive profile pages featured subpages.</div>
+                    I also noticed that some profiles made use of subpages to handle an overflow of content. I initially wasn't sure if my profile pages would have such a large amount of content that subpages would be necessary, but I kept this in mind as I created wireframes of profile pages in Figma.</li>
+            </ul>
+
+            <h4 style="margin-top: 24px; margin-bottom: 24px;">Medium Fidelities.</h4>
+
+            <img src="images/bloom/bloomProfileMidFi.png" alt="Bloom University profile mid fidelity explorations">
+
+            <p class="body">I decided to pursue exploration E because the overall structure most closely resembled those of other major social media platforms. Additionally, it provided all important profile information at a glance for users, minimizing the need for unnecessary scrolling or clicking on the profile page. However, this came at the cost of not being able to display large networks as efficiently. Larger networks require pagination within the card—unlike explorations D and F which would make it relatively easy to scroll and view connections in a larger network. Despite this drawback, exploration E's overall clean and condensed design made it the best candidate for the final profile page design.</p>
+
+            <h4 style="margin-top: 24px; margin-bottom: 24px;">Final Screens.</h4>
+
+            <img src="images/bloom/bloomFinalProfile.png" alt="Bloom University profile final">
+
+        </div>
+
+        <!-- HORIZONTAL TEXT BLOCK -->
+        <div class="horizontal-text-block">
+            <h3 class="section-title">Key Takeaways.</h3>
+            <p class="body" style="width: 100%">Overall, this internship was a great opportunity to not only collaborate with some really talented designers and developers, but also work on my interaction design skills. I found myself challenged to really think critically about how users would interact with the platform, and also how to best conform Bloom to standards already in place in the industry. Additionally, in the wake of recent acts of racism and injustice toward members of the African American community, I felt excited to empower and unite this community through my work with Bloom in any small way that I could. More importantly, I realized from this internship areas in which I can grow in the future. During this internship, I mostly worked with the design system created by Jalil. Observing how he came to decisions about the theme and visual design in the platform gave me really good insight into how I could grow in my own visual design skills, especially when it comes to being purposeful with color choices and spacing.</p>
+        </div>
+
+        </div>
+
+
+
+
+        <div class="light-divider"></div>
+
+		<footer>
+
+            <div class="flex-row" style="justify-content: space-between; align-items: center;">
+
+                <p>Made with ♡ by Megan</p>
+
+                <ul class="flex-row social-links">
+                    <li class="nav-links"><a href="https://instagram.com" target="_blank" class="link hover-underline-animation">Instagram</a></li>
+                    <li class="nav-links"><a href="https://vsco.co/meg-chang" target="_blank" class="link hover-underline-animation">VSCO</a></li>
+                    <li class="nav-links"><a href="https://linkedin.com" target="_blank" class="link hover-underline-animation">LinkedIn</a></li>
+                </ul>
+
+            </div>
+
+		</footer>
+
+	</body>
+</html>

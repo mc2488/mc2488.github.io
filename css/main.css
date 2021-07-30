@@ -57,18 +57,22 @@ h3 {
 h4 {
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 29px;
     margin: 0px;
 }
 
-p, .body {
+p, .body, .body-emphasized {
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 28px;
     margin: 0px;
     color: #353535;
+}
+
+.body-emphasized {
+    font-weight: 700;
 }
 
 #logo {
@@ -86,7 +90,9 @@ p, .body {
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 2px;
+}
 
+.page-title-padding {
     margin: 0px;
     padding: 36px 0px 28px 128px;
     display: inline-block;
@@ -94,6 +100,8 @@ p, .body {
 
 ul li {
     list-style: none;
+    padding-bottom: 12px;
+
 }
 
 .nav-links {
@@ -137,17 +145,22 @@ a {
 /* Backgrounds */
 
 .big-background {
-    background-image: url("../images/backgrounds/bigbackground.png");
+    background-image: url("../images/backgrounds/bigBackground.png");
     background-size: cover;
 }
 
 .small-background {
-    background-image: url("../images/backgrounds/smallbackground.png");
+    background-image: url("../images/backgrounds/smallBackground.png");
     background-size: cover;
 }
 
 .nav-background {
-    background-image: url("../images/backgrounds/navbackground.png");
+    background-image: url("../images/backgrounds/navBackground.png");
+    background-size: cover;
+}
+
+.medium-background {
+    background-image: url("../images/backgrounds/mediumBackground.png");
     background-size: cover;
 }
 
@@ -155,6 +168,12 @@ a {
     padding-top: 180px;
     padding-left: 128px;
     padding-bottom: 112px;
+}
+
+.medium-header-content {
+    padding-top: 64px;
+    padding-left: 128px;
+    padding-bottom: 64px;
 }
 
 
@@ -173,6 +192,10 @@ a {
 .cover-photo {
     width: 49%;
 /* max-height:100%; */
+}
+
+img {
+    width: 100%;
 }
 
 .page-block {
@@ -264,4 +287,28 @@ footer {
 .hover-underline-animation:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+/* Text Blocks */
+
+.vertical-text-block, .horizontal-text-block {
+    margin-bottom: 80px;
+    /* margin-left: 80px; */
+}
+
+.horizontal-text-block {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-title {
+    width: 25%;
+    margin-right: 120px;
+}
+
+.section-header {
+    animation-duration: 0s;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    /* margin-left: 80px; */
 }
