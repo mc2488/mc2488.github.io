@@ -150,17 +150,17 @@ a {
 }
 
 .small-background {
-    background-image: url("../images/backgrounds/smallBackground.png");
+    background-image: url("../images/backgrounds/small-background.png");
     background-size: cover;
 }
 
 .nav-background {
-    background-image: url("../images/backgrounds/navBackground.png");
+    background-image: url("../images/backgrounds/nav-background.png");
     background-size: cover;
 }
 
 .medium-background {
-    background-image: url("../images/backgrounds/mediumBackground.png");
+    background-image: url("../images/backgrounds/medium-background.png");
     background-size: cover;
 }
 
